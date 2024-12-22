@@ -37,6 +37,7 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
+                 echo "Successfully end of Deliver.."
                 '''
             }
         }
